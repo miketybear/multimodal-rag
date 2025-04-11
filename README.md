@@ -123,13 +123,11 @@ Once the container is running, access the application in your browser at:
 http://localhost:8555
 ```
 
-### Docker Compose (Optional)
+### Docker Compose
 
 For easier management, you can create a `docker-compose.yml` file:
 
 ```yaml
-version: '3'
-
 services:
   multimodal-rag:
     build: .
