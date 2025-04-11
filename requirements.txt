@@ -1,0 +1,20 @@
+# Core dependencies
+langchain>=0.3.21
+langchain-core>=0.3.45
+langchain-community>=0.3.20
+langchain-openai>=0.0.5
+langchain-chroma>=0.0.4
+
+# Document processing
+unstructured[all-docs]>=0.11.0
+
+# Vector database
+chromadb>=0.4.22
+tiktoken>=0.5.2
+
+# Environment and UI
+python-dotenv>=1.0.0
+streamlit>=1.32.0
+
+# Testing
+pytest>=8.0.0

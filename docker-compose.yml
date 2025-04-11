@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  multimodal-rag:
+    build: .
+    ports:
+      - "8555:8555"
+    volumes:
+      - ./database:/app/database
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    restart: unless-stopped
