@@ -20,8 +20,6 @@ parts/
 sdist/
 var/
 wheels/
-notebook/
-test/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -76,10 +74,6 @@ venv.bak/
 *.sqlite
 
 # Media files that might be large
-*.jpg
-*.jpeg
-*.png
-*.gif
 *.mp4
 *.mov
 *.avi

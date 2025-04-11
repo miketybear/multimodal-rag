@@ -20,7 +20,7 @@ pg = st.navigation(
 
 
 st.logo(
-    image="assets/logo_BDPOC.jpg",
+    image="assets/logo_BDPOC.png",
     size="large",
 )
 
