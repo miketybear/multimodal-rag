@@ -100,3 +100,8 @@ tests/
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Database files - preserve structure but not content
+database/*.sqlite3
+database/*.pkl
+database/*/
